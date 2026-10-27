@@ -13,13 +13,15 @@ This project aims to build a Multilayer Perceptron (MLP) model from scratch to r
 The model was trained entirely on the standard MNIST dataset. The data was explicitly split into Training, Validation, and Test sets to prevent data leakage.
 
 **Experiment 1 - Basic MLP Model Results**
-*   **Training Time:** [SÜREYİ BURAYA YAZ, Örn: 45 seconds]
-*   **Training Loss:** [DEĞERİ YAZ, Örn: 0.1234]
-*   **Validation Loss:** [DEĞERİ YAZ]
-*   **Training Accuracy:** [DEĞERİ YAZ, Örn: %97.5]
-*   **Validation Accuracy:** [DEĞERİ YAZ]
-*   **Test Accuracy:** [DEĞERİ YAZ]
-*(Note: Training and validation loss/accuracy graphs are generated and visualized within the project notebook).*
+*   **Training Time:** (79 second)
+*   **Training Loss:** (0.0522)
+*   **Validation Loss:** (0.1054)
+*   **Training Accuracy:** (%98.30)
+*   **Validation Accuracy:** (%97.02)
+*   **Test Accuracy:** (%96.96)
+
+**Loss and Accuracy Graphs**
+![Loss ve Accuracy Grafikleri](grafikler.png)
 
 **Experiment Results & Distribution Shift (Generalization Gap)**
 During the training and validation phases on the standard MNIST dataset, the model achieved high accuracy. However, when tested on real-world data (my custom handwritten digits drawn on a tablet), it struggled to predict the numbers correctly. 
